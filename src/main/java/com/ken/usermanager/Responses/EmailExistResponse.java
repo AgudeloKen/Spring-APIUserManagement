@@ -1,2 +1,4 @@
-package com.ken.usermanager.Responses;public record EmailExistResponse() {
+package com.ken.usermanager.Responses;
+
+public record EmailExistResponse(String email) {
 }

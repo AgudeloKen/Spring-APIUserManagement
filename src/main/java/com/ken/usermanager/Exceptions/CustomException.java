@@ -1,8 +1,8 @@
 package com.ken.usermanager.Exceptions;
 
-public class JWTFailException extends Exception{
+public class CustomException extends Exception{
 
-    public JWTFailException(String message){
+    public CustomException(String message){
         super(message);
     }
 }

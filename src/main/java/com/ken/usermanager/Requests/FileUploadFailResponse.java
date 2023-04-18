@@ -1,2 +1,4 @@
-package com.ken.usermanager.Requests;public record FileUploadFailResponse() {
+package com.ken.usermanager.Requests;
+
+public record FileUploadFailResponse(String file) {
 }

@@ -1,2 +1,4 @@
-package com.ken.usermanager.Responses;public class PasswordResponse {
+package com.ken.usermanager.Responses;
+
+public record PasswordResponse(String password) {
 }
